@@ -1,0 +1,11 @@
+{
+  "name": "natixisctaweb",
+  "private": true,
+  "devDependencies": {
+    "browser-sync": "^2.10.0",
+    "gulp": "^3.9.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}

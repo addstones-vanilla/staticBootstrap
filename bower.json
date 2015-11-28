@@ -1,0 +1,29 @@
+{
+  "name": "natixis-cta-web",
+  "version": "0.0.1",
+  "appPath": "app",
+  "homepage": "https://github.com/addstones-vanilla/NATIXIS-CTA-WEB",
+  "authors": [
+    "ghjuvan <vaevconsult@gmail.com>"
+  ],
+  "moduleName": "natixisCtaWebApp",
+  "description": "natixis html CAT framework",
+  "main": "main.js",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "Private",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "gsap": "~1.18.0",
+    "jquery": "~2.1.4",
+    "bootstrap": "^3.2.0"
+  }
+}
