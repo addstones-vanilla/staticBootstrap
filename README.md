@@ -13,7 +13,7 @@ HTML framework integration for NATIXIS CAT
 ### Install npm tools
 Open a cmd console as admin and, in the root directory of the project, type  : 
 
-1. ``` npm i - g node-gyp rebuild ```
+1. ``` npm i -g node-gyp rebuild ```
 2. ```npm i -g gulp ```
 3. ``` npm i -g npm install -g browser-sync ```
 4. ``` npm i -g bower ```
@@ -27,7 +27,7 @@ Open a cmd console as admin and, in the root directory of the project, type  :
 ### Install npm tools
 Open a cmd console as admin and, in the root directory of the project, type  : 
 
-1. ``` npm i - g node-gyp rebuild ```
+1. ``` npm i -g node-gyp rebuild ```
 2. ```npm i -g gulp ```
 3. ``` npm i -g npm install -g browser-sync ```
 4. ``` npm i -g bower ```
