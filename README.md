@@ -11,21 +11,29 @@ HTML framework integration for NATIXIS CAT
 4. create a new env variable named "GYP_MSVS_VERSION" and with value "2015"
 
 ### Install npm tools
-Open a cmd console as admin and, in the root directory of the project, type  : 
+Open a cmd console as admin and, in the root directory of the project, type  :
 
 1. ``` npm i -g node-gyp rebuild ```
 2. ```npm i -g gulp ```
 3. ``` npm i -g npm install -g browser-sync ```
 4. ``` npm i -g bower ```
+5. ``` npm i -g nodemon ```
 
 ### Install project dependencies
 1. ``` npm i ```
-2. ``` bower i ```
+2. ``` cd  app/ ```
+3. ``` bower i ```
+
+### Launch Web server
+1. ``` cd ../server/ ```
+2. ``` nodemon ./bin/www ```
+3. In your browser open ``` http://localhost:3000 ```
+
 
 ## Install process for Mac / Linux
 
 ### Install npm tools
-Open a cmd console as admin and, in the root directory of the project, type  : 
+Open a cmd console as admin and, in the root directory of the project, type  :
 
 1. ``` npm i -g node-gyp rebuild ```
 2. ```npm i -g gulp ```
@@ -34,4 +42,10 @@ Open a cmd console as admin and, in the root directory of the project, type  :
 
 ### Install project dependencies
 1. ``` npm i ```
-2. ``` bower i ```
+2. ``` cd  app/ ```
+3. ``` bower i ```
+
+### Launch Web server
+1. ``` cd ../server/ ```
+2. ``` nodemon ./bin/www ```
+3. In your browser open ``` http://localhost:3000 ```
